@@ -37,8 +37,7 @@ const I18N = {
     path_subtitle: "Expériences et études.",
     path_education: "Études",
     path_experience: "Expériences",
-    footer_text: "Site construit avec du HTML/CSS/JS simple, hébergé sur GitHub Pages.",
-    contact_email: "Me contacter",
+    contact_email: "Email",
   },
   en: {
     nav_projects: "Projects",
@@ -77,8 +76,7 @@ const I18N = {
     path_subtitle: "Experience and education.",
     path_education: "Education",
     path_experience: "Experience",
-    footer_text: "Built with plain HTML/CSS/JS, hosted on GitHub Pages.",
-    contact_email: "Contact me",
+    contact_email: "Email",
   },
 };
 

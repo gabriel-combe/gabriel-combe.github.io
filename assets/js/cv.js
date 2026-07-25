@@ -36,15 +36,15 @@ async function renderCV() {
   el.innerHTML = `
     <div class="skill-group">
       <h2>${t("cv_skills_lang")}</h2>
-      ${langGroup}
+      <div class="skill-grid">${langGroup}</div>
     </div>
     <div class="skill-group">
       <h2>${t("cv_skills_soft")}</h2>
-      ${softGroup}
+      <div class="skill-grid">${softGroup}</div>
     </div>
     <div class="skill-group">
       <h2>${t("cv_skills_domains")}</h2>
-      ${domainGroup}
+      <div class="skill-grid">${domainGroup}</div>
     </div>
     <div class="skill-group">
       <h2>${t("cv_certs")}</h2>

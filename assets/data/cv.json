@@ -7,11 +7,11 @@
       { "name": "Java", "level": 60 },
       { "name": "GLSL / Shaders", "level": 60 },
       { "name": "Arduino / Embarqué", "level": 65 },
-      { "name": "SQL", "level": 55 },
-      { "name": "HTML / CSS / JS", "level": 55 }
+      { "name": "SQL", "level": 40 },
+      { "name": "HTML / CSS / JS", "level": 40 }
     ],
     "software": [
-      { "name": "Unity", "level": 65 },
+      { "name": "Unity", "level": 75 },
       { "name": "Unreal Engine 5", "level": 55 },
       { "name": "Git", "level": 75 },
       { "name": "Visual Studio / VS Code", "level": 75 },
