@@ -1,0 +1,52 @@
+{
+  "skills": {
+    "languages": [
+      { "name": "C / C++", "level": 75 },
+      { "name": "Python", "level": 80 },
+      { "name": "C#", "level": 65 },
+      { "name": "Java", "level": 60 },
+      { "name": "GLSL / Shaders", "level": 60 },
+      { "name": "Arduino / Embarqué", "level": 65 },
+      { "name": "SQL", "level": 55 },
+      { "name": "HTML / CSS / JS", "level": 55 }
+    ],
+    "software": [
+      { "name": "Unity", "level": 65 },
+      { "name": "Unreal Engine 5", "level": 55 },
+      { "name": "Git", "level": 75 },
+      { "name": "Visual Studio / VS Code", "level": 75 },
+      { "name": "PyTorch / TensorFlow", "level": 60 },
+      { "name": "Fusion 360", "level": 55 },
+      { "name": "Blender", "level": 45 },
+      { "name": "TouchDesigner", "level": 40 },
+      { "name": "Houdini", "level": 35 },
+      { "name": "Premiere Pro", "level": 45 }
+    ],
+    "domains": [
+      { "name_fr": "Gameplay / outils pour le jeu vidéo", "name_en": "Gameplay / game tools", "level": 78 },
+      { "name_fr": "IA de jeu (behavior trees, algorithmes génétiques)", "name_en": "Game AI (behavior trees, genetic algorithms)", "level": 70 },
+      { "name_fr": "Systèmes de jeu (Unity/Unreal, architecture SO)", "name_en": "Game systems (Unity/Unreal, SO-driven architecture)", "level": 72 },
+      { "name_fr": "Graphisme temps réel (OpenGL/shaders)", "name_en": "Real-time graphics (OpenGL/shaders)", "level": 65 },
+      { "name_fr": "Hardware / VR", "name_en": "Hardware / VR", "level": 70 },
+      { "name_fr": "Machine Learning / Deep Learning", "name_en": "Machine Learning / Deep Learning", "level": 60 },
+      { "name_fr": "Vision par ordinateur", "name_en": "Computer Vision", "level": 60 },
+      { "name_fr": "Robotique / embarqué", "name_en": "Robotics / embedded", "level": 55 }
+    ]
+  },
+  "languages_spoken": [
+    { "name_fr": "Français (natif)", "name_en": "French (native)" },
+    { "name_fr": "Anglais (courant)", "name_en": "English (fluent)" }
+  ],
+  "certificates": [
+    { "title_fr": "Diplôme du Baccalauréat Général — Sciences de l'Ingénieur, mention Très Bien, section européenne Anglais", "title_en": "General Baccalaureate Diploma — Engineering Sciences, highest honors, English-section", "issuer": "Académie de Montpellier", "date": "2019" },
+    { "title": "Cambridge English Certificate", "issuer": "Cambridge Assessment English", "date": "2019" },
+    { "title_fr": "Licence Sciences, Technologies, Santé — mention Informatique", "title_en": "Bachelor's Degree, Sciences/Technologies/Health — Computer Science", "issuer": "Université de Montpellier", "date": "2023" },
+    { "title_fr": "Certificat de scolarité — Master 2 Arts et Technologies de l'Image virtuelle", "title_en": "Enrollment certificate — Master 2, Art & Technology of Virtual Image", "issuer": "Université Paris 8", "date_fr": "2025-2026 (en cours)", "date_en": "2025-2026 (ongoing)" },
+    { "title": "Neural Networks and Deep Learning", "issuer": "DeepLearning.AI (Coursera)", "date": "2020" },
+    { "title": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization", "issuer": "DeepLearning.AI (Coursera)", "date": "2022" },
+    { "title": "Structuring Machine Learning Projects", "issuer": "DeepLearning.AI (Coursera)", "date": "2022" },
+    { "title": "Convolutional Neural Networks", "issuer": "DeepLearning.AI (Coursera)", "date": "2022" },
+    { "title": "Build Basic Generative Adversarial Networks (GANs)", "issuer": "DeepLearning.AI (Coursera)", "date": "2022" },
+    { "title": "Build Better Generative Adversarial Networks (GANs)", "issuer": "DeepLearning.AI (Coursera)", "date": "2022" }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "education": [
+    {
+      "date": "2024 – 2026",
+      "title_fr": "Master 2 Art et Technologie de l'Image (ATI)",
+      "title_en": "Master's Degree, Art & Technology of Image (ATI)",
+      "place_fr": "Université Paris 8, France",
+      "place_en": "Université Paris 8, France",
+      "desc_fr": "Spécialisation en programmation de jeux vidéo et d'outils pour artistes (gameplay, tools, pipeline, shaders). Mémoire de recherche en cours.",
+      "desc_en": "Specializing in game programming and tools for artists (gameplay, tools, pipeline, shaders). Research thesis in progress."
+    },
+    {
+      "date": "2023 – 2024",
+      "title_fr": "Échange universitaire — Computer Sciences and Neuroscience",
+      "title_en": "University exchange — Computer Sciences and Neuroscience",
+      "place_fr": "Keele University, Angleterre",
+      "place_en": "Keele University, England",
+      "desc_fr": "Année d'échange : fondamentaux de la programmation, science des données, neurosciences.",
+      "desc_en": "Exchange year: programming fundamentals, data science, neuroscience."
+    },
+    {
+      "date": "2022 – 2023",
+      "title_fr": "Licence Informatique (L3)",
+      "title_en": "Bachelor's Degree, Computer Science (L3)",
+      "place_fr": "Université de Montpellier, France",
+      "place_en": "Université de Montpellier, France",
+      "desc_fr": "Projet de fin d'année : Cuttlefish Tracker (vision par ordinateur + filtre à particules).",
+      "desc_en": "Capstone project: Cuttlefish Tracker (computer vision + particle filter)."
+    },
+    {
+      "date": "2021 – 2022",
+      "title_fr": "Licence Mathématiques-Informatique (L2)",
+      "title_en": "Bachelor's Degree, Mathematics-Computer Science (L2)",
+      "place_fr": "Université Aix-Marseille, France",
+      "place_en": "Aix-Marseille University, France",
+      "desc_fr": "Secteur Sciences - CTES.",
+      "desc_en": "Sciences track - CTES."
+    },
+    {
+      "date": "2020 – 2021",
+      "title_fr": "CPGE MPSI (prépa scientifique)",
+      "title_en": "CPGE MPSI (science preparatory class)",
+      "place_fr": "Lycée Joffre, Montpellier, France",
+      "place_en": "Lycée Joffre, Montpellier, France",
+      "desc_fr": "Mathématiques, Physique/Chimie, Sciences de l'Ingénieur, option Informatique.",
+      "desc_en": "Mathematics, Physics/Chemistry, Engineering Sciences, Computer Science option."
+    },
+    {
+      "date": "2017 – 2019",
+      "title_fr": "Baccalauréat Scientifique — mention Très Bien",
+      "title_en": "Scientific Baccalaureate — highest honors",
+      "place_fr": "Lycée Dhuoda, Nîmes, France",
+      "place_en": "Lycée Dhuoda, Nîmes, France",
+      "desc_fr": "Mathématiques - Physique/Chimie - Sciences de l'Ingénieur - section langue européenne (anglais). Cambridge English Certificate.",
+      "desc_en": "Mathematics - Physics/Chemistry - Engineering Sciences - European language section (English). Cambridge English Certificate."
+    }
+  ],
+  "experience": [
+    {
+      "date": "2025 – 2026",
+      "title_fr": "Développeur et Tech Art (alternance)",
+      "title_en": "Developer & Tech Art (apprenticeship)",
+      "place_fr": "Tartatin",
+      "place_en": "Tartatin",
+      "desc_fr": "Développement de gameplay, d'outils et de pipeline pour l'équipe de développement, de game design et artistique. Création de shaders pour les artistes.",
+      "desc_en": "Developing gameplay, tools and pipeline for the dev, game design and art teams. Creating shaders for artists."
+    },
+    {
+      "date": "2020 – 2025",
+      "title_fr": "Co-fondateur, CTO — Start-up VR UNAI",
+      "title_en": "Co-founder, CTO — VR Start-up UNAI",
+      "place_fr": "UNAI",
+      "place_en": "UNAI",
+      "desc_fr": "R&D en intelligence artificielle, SLAM, filtres de Kalman.",
+      "desc_en": "R&D in artificial intelligence, SLAM, Kalman filters."
+    },
+    {
+      "date": "2016 – 2020",
+      "title_fr": "Co-fondateur — Relativty VR",
+      "title_en": "Co-founder — Relativty VR",
+      "place_fr": "Relativty",
+      "place_en": "Relativty",
+      "desc_fr": "Création et recherche sur des projets de réalité virtuelle open-source.",
+      "desc_en": "Creation and research on open-source virtual reality projects."
+    },
+    {
+      "date": "2018",
+      "title_fr": "Stage — Digiweek",
+      "title_en": "Internship — Digiweek",
+      "place_fr": "Ecole Supérieure du Digital, Paris",
+      "place_en": "Ecole Supérieure du Digital, Paris",
+      "desc_fr": "Stage d'une semaine autour des métiers du digital.",
+      "desc_en": "A one-week internship exploring digital careers."
+    },
+    {
+      "date": "2017",
+      "title_fr": "Formation Blue Mirror",
+      "title_en": "Blue Mirror Program",
+      "place_fr": "The Family, Paris",
+      "place_en": "The Family, Paris",
+      "desc_fr": "Formation destinée aux créateurs d'entreprises et de start-up.",
+      "desc_en": "Program for entrepreneurs and start-up founders."
+    },
+    {
+      "date": "2016",
+      "title_fr": "Stages découverte",
+      "title_en": "Discovery internships",
+      "place_fr": "DIMTI Instrumentation & Nokia France",
+      "place_en": "DIMTI Instrumentation & Nokia France",
+      "desc_fr": "Stages de découverte en entreprise.",
+      "desc_en": "Company discovery internships."
+    }
+  ]
+}

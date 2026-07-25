@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resume — Gabriel Combe-Ounkham</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-bar">
+    <a class="brand" href="index.html">Gabriel <span>Combe</span></a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="projets.html" data-i18n="nav_projects">Projects</a>
+      <a href="cv.html" class="active" data-i18n="nav_cv">Resume</a>
+      <a href="parcours.html" data-i18n="nav_path">Timeline</a>
+      <div class="lang-switch">
+        <button data-lang="fr">FR</button>
+        <button data-lang="en" class="active">EN</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <div class="container">
+      <h1 data-i18n="cv_title">Resume</h1>
+      <p class="subtitle" data-i18n="cv_subtitle">Skills, software and certificates.</p>
+      <p><a href="parcours.html" data-i18n="cv_see_path">See my timeline →</a></p>
+      <div id="cv-content" style="margin-top:2rem;"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p data-i18n="footer_text">Built with plain HTML/CSS/JS, hosted on GitHub Pages.</p>
+    <p><a href="mailto:gabrielcombe@gmail.com" data-i18n="contact_email">Contact me</a> · <a href="https://github.com/gabriel-combe" target="_blank" rel="noopener">GitHub</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cv.js"></script>
+</body>
+</html>

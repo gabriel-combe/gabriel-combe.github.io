@@ -1,0 +1,9 @@
+# Document privé - ne doit jamais être publié sur GitHub Pages
+RAPPORT_COMPETENCES.md
+
+# Artefacts de test locaux
+node_modules/
+package.json
+package-lock.json
+__*.js
+.vscode

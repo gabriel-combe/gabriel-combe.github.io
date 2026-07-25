@@ -1,0 +1,690 @@
+[
+  {
+    "slug": "relativty",
+    "category": "hardware",
+    "featured": true,
+    "status": "public",
+    "title_fr": "Relativty",
+    "title_en": "Relativty",
+    "desc_fr": "Casque de réalité virtuelle open-source à ~200$, natif SteamVR (2K/120Hz). Co-fondateur du projet : R&D initiale et premiers prototypes (mécanique, électronique, firmware, driver SteamVR).",
+    "desc_en": "A ~$200 open-source VR headset with native SteamVR support (2K/120Hz). Co-founder of the project: initial R&D and first prototypes (mechanical, electronics, firmware, SteamVR driver).",
+    "cover": "assets/img/projects/relativty/screenshot2.jpg",
+    "tech": ["C++", "Arduino", "SteamVR/OpenVR", "Unity", "Fusion 360", "PCB"],
+    "links": {
+      "repo": "https://github.com/relativty/Relativ",
+      "extra": [
+        { "label": "relativty.com", "url": "https://github.com/relativty/relativty.com" }
+      ]
+    },
+    "detail": {
+      "overview_fr": "Relativty est un casque de réalité virtuelle open-source (mécanique + électronique + firmware + logiciel) à environ 200$, avec support natif SteamVR et un affichage 2K à 120Hz. Le projet est né quand Maxime Coutté et moi avions 15 ans et n'avions pas les moyens de nous payer un vrai casque — il est ensuite devenu un vrai projet open-source avec sa communauté (site, Discord). J'en suis co-fondateur : j'ai porté une part importante de la R&D initiale et des tout premiers prototypes — choix des capteurs, premières cartes électroniques, premier firmware, premier driver SteamVR fonctionnel. Le projet a depuis évolué et s'est structuré en écosystème avec plusieurs dépôts (SDK, protocole de communication, site vitrine).",
+      "overview_en": "Relativty is an open-source VR headset (mechanical + electronics + firmware + software) costing around $200, with native SteamVR support and a 2K/120Hz display. The project started when Maxime Coutté and I were 15 and couldn't afford a real headset — it later grew into a real open-source project with its own community (website, Discord). I'm a co-founder: I carried out a significant part of the initial R&D and the very first prototypes — sensor selection, first PCBs, first firmware, first working SteamVR driver. The project has since evolved into a full ecosystem with several repositories (SDK, communication protocol, showcase website).",
+      "stack_fr": "Mécanique : conception 3D (Fusion 360), pièces imprimées en 3D. Électronique : cartes IMU/capteurs custom, PCB. Firmware : Arduino/C++. Logiciel : driver OpenVR/SteamVR en C++, intégrations Unity côté SDK.",
+      "stack_en": "Mechanical: 3D design (Fusion 360), 3D-printed parts. Electronics: custom IMU/sensor boards, PCB. Firmware: Arduino/C++. Software: OpenVR/SteamVR driver in C++, Unity integrations on the SDK side.",
+      "challenges_fr": "Faire dialoguer du hardware maison (capteurs, PCB) avec l'API SteamVR en partant de zéro, sans documentation officielle complète à l'époque — beaucoup de reverse engineering et d'itérations sur les tout premiers prototypes.",
+      "challenges_en": "Getting custom hardware (sensors, PCBs) to talk to the SteamVR API from scratch, without complete official documentation at the time — a lot of reverse engineering and iteration on the very first prototypes.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/relativty/screenshot2.jpg", "caption": "Open/exploded headset build" },
+        { "type": "image", "src": "assets/img/projects/relativty/screenshot1.png", "caption": "Relativty project" }
+      ]
+    }
+  },
+  {
+    "slug": "the-final-stage",
+    "category": "jeux",
+    "featured": true,
+    "status": "public",
+    "title_fr": "The Final Stage",
+    "title_en": "The Final Stage",
+    "desc_fr": "Installation jouable en équipe (intensif M2 ATI) : tracking de pose (RealSense), impression thermique, contrôleur Arduino, IA de fantômes par algorithme génétique, shaders custom.",
+    "desc_en": "A playable installation made as a team (M2 ATI intensive): pose tracking (RealSense), thermal printing, Arduino controller, genetic-algorithm ghost AI, custom shaders.",
+    "tech": ["Unreal Engine", "C++", "RealSense SDK", "Arduino", "Python", "Genetic Algorithm"],
+    "cover": "assets/img/projects/the-final-stage/thesis_gen_evolved.png",
+    "links": {},
+    "detail": {
+      "overview_fr": "Installation interactive réalisée en équipe (4 personnes) pendant un intensif du Master ATI. Contribution personnelle substantielle et variée : intégration du SDK RealSense pour le tracking de pose, un tracker custom avec serveur Python pour une caméra T261, intégration d'une imprimante thermique multi-OS, un contrôleur Arduino (avec fiabilisation du timing), une IA de fantômes pilotée par algorithme génétique (comportements \"flottant\" et \"volant\"), un système de mémoire avec effet de dissolution, et des shaders custom (matérialisation, eau \"galaxie\").",
+      "overview_en": "An interactive installation built as a 4-person team during an ATI Master's intensive. Substantial and varied personal contribution: RealSense SDK integration for pose tracking, a custom tracker with a Python server for a T261 camera, multi-OS thermal printer integration, an Arduino controller (with timing reliability fixes), genetic-algorithm-driven ghost AI (\"floating\" and \"flying\" behaviors), a memory system with a dissolve effect, and custom shaders (materialization, \"galaxy\" water).",
+      "stack_fr": "Unreal Engine, C++, Intel RealSense SDK, Arduino/C++, Python (serveur de tracking), HLSL (shaders).",
+      "stack_en": "Unreal Engine, C++, Intel RealSense SDK, Arduino/C++, Python (tracking server), HLSL (shaders).",
+      "challenges_fr": "Faire coopérer de façon fiable du hardware hétérogène (caméra de tracking, imprimante thermique, Arduino) avec le moteur de jeu dans un contexte d'installation physique, sous contrainte de temps d'un intensif.",
+      "challenges_en": "Getting heterogeneous hardware (tracking camera, thermal printer, Arduino) to reliably cooperate with the game engine in a physical installation context, under the time pressure of an intensive.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/the-final-stage/thesis_gen_evolved.png", "caption": "In-game view — evolved ghost generation" },
+        { "type": "image", "src": "assets/img/projects/the-final-stage/thesis_gen_early.png", "caption": "In-game view — early ghost generation" },
+        { "type": "image", "src": "assets/img/projects/the-final-stage/thesis_env.png", "caption": "Installation environment" }
+      ]
+    }
+  },
+  {
+    "slug": "cuttlefish-tracker",
+    "category": "academique",
+    "featured": true,
+    "status": "public",
+    "title_fr": "Cuttlefish Tracker",
+    "title_en": "Cuttlefish Tracker",
+    "desc_fr": "Projet de fin de Licence 3 : suivi de seiches en vidéo via un pipeline détection (YOLOv7 fine-tuné, mAP@.5 0.971) + filtre à particules maison.",
+    "desc_en": "End-of-L3 (bachelor's) capstone project: cuttlefish video tracking via a detection pipeline (fine-tuned YOLOv7, 0.971 mAP@.5) + a custom particle filter.",
+    "cover": "assets/img/projects/cuttlefish-tracker/tracking_result.png",
+    "tech": ["Python", "YOLOv7", "Computer Vision"],
+    "links": {
+      "repo": "https://github.com/gabriel-combe/Cuttlefish_Tracker",
+      "extra": [{ "label": "YOLOv7_PP2 (fine-tuning)", "url": "https://github.com/gabriel-combe/YOLOv7_PP2" }]
+    },
+    "detail": {
+      "overview_fr": "Projet de programmation de fin de Licence 3 Informatique (Université de Montpellier) : un pipeline complet de suivi de seiches en vidéo, combinant un modèle YOLOv7 fine-tuné sur un dataset custom pour la détection, et un filtre à particules maison (plusieurs descripteurs/métriques de similarité) pour le suivi image par image. Le YOLOv7 a été fine-tuné pendant 300 epochs (~20h) sur un dataset annoté à la main de 2161 images (augmenté à 5175), atteignant Précision 0.953, Rappel 0.959, mAP@.5 0.971 et mAP@.5:.95 0.607. Le projet inclut une évaluation quantitative complète et un rapport écrit.",
+      "overview_en": "End-of-L3 (bachelor's, Université de Montpellier) programming capstone: a complete cuttlefish video-tracking pipeline, combining a YOLOv7 model fine-tuned on a custom dataset for detection, with a custom particle filter (several descriptors/similarity metrics) for frame-by-frame tracking. YOLOv7 was fine-tuned for 300 epochs (~20h) on a hand-annotated dataset of 2161 images (augmented to 5175), reaching Precision 0.953, Recall 0.959, mAP@.5 0.971 and mAP@.5:.95 0.607. The project includes a full quantitative evaluation and a written report.",
+      "stack_fr": "Python, YOLOv7 (fine-tuning), filtre à particules maison, LaTeX pour le rapport.",
+      "stack_en": "Python, YOLOv7 (fine-tuning), custom particle filter, LaTeX for the report.",
+      "challenges_fr": "Faire cohabiter un détecteur par deep learning avec un tracker probabiliste classique, et évaluer objectivement la qualité du suivi sur des séquences réelles bruitées.",
+      "challenges_en": "Getting a deep-learning detector to work together with a classic probabilistic tracker, and objectively evaluating tracking quality on noisy real-world footage.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/cuttlefish-tracker/tracking_result.png", "caption": "Particle-filter tracking result" },
+        { "type": "image", "src": "assets/img/projects/cuttlefish-tracker/yolo_detection.jpg", "caption": "YOLOv7 detection on a cuttlefish sequence" },
+        { "type": "image", "src": "assets/img/projects/cuttlefish-tracker/eval.png", "caption": "Evaluation / metrics" }
+      ]
+    }
+  },
+  {
+    "slug": "the-maze",
+    "category": "jeux",
+    "featured": true,
+    "status": "public",
+    "title_fr": "TheMaze",
+    "title_en": "TheMaze",
+    "desc_fr": "Jeu d'évasion en labyrinthe, projet 100% solo écrit quasi entièrement en C++ (Unreal Engine 5, M1 ATI).",
+    "desc_en": "A maze-escape game, a 100% solo project written almost entirely in C++ (Unreal Engine 5, M1 ATI).",
+    "tech": ["Unreal Engine 5", "C++"],
+    "cover": "assets/img/projects/the-maze/maze_overview.png",
+    "links": { "repo": "https://github.com/gabriel-combe/TheMaze" },
+    "detail": {
+      "overview_fr": "Jeu d'évasion en labyrinthe à la première personne, réalisé en solo et quasi entièrement en C++ (peu de Blueprints) en première année de Master ATI : générateur de labyrinthe procédural custom (basé sur l'algorithme de Captain Luma, étendu avec génération de murs/sol et suivi des culs-de-sac), monstre piloté par arbre de comportement traquant le joueur, objets de soin, échelle d'évasion, écrans de victoire/défaite. Premier projet C++ (plutôt que Blueprints uniquement) réalisé comme défi personnel. Un exécutable Windows packagé existe.",
+      "overview_en": "A first-person maze-escape game, built solo and almost entirely in C++ (little Blueprint use) during the first year of my ATI Master's: a custom procedural maze generator (based on Captain Luma's algorithm, extended with wall/floor generation and dead-end tracking), a behavior-tree-driven monster that hunts the player, health items, an escape ladder, win/death screens. My first C++ (rather than Blueprint-only) project, taken on as a personal challenge. A packaged Windows build exists.",
+      "stack_fr": "Unreal Engine 5, C++/Blueprints.",
+      "stack_en": "Unreal Engine 5, C++/Blueprints.",
+      "challenges_fr": "Mettre en place une génération de niveau cohérente et jouable dans le moteur.",
+      "challenges_en": "Setting up coherent and playable level generation within the engine.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/the-maze/maze_demo.gif", "caption": "Procedural maze generation (animated)" },
+        { "type": "image", "src": "assets/img/projects/the-maze/maze_overview.png", "caption": "Top-down maze overview" }
+      ]
+    }
+  },
+  {
+    "slug": "maze-solver",
+    "category": "programmation",
+    "featured": true,
+    "status": "public",
+    "title_fr": "MazeSolver",
+    "title_en": "MazeSolver",
+    "desc_fr": "Application qui génère (Prim's/Wilson's) ET résout (A*) des labyrinthes, avec visualisation pas-à-pas.",
+    "desc_en": "An application that both generates (Prim's/Wilson's) AND solves (A*) mazes, with step-by-step visualization.",
+    "cover": "assets/img/projects/maze-solver/screenshot1.png",
+    "tech": ["Java"],
+    "links": { "repo": "https://github.com/gabriel-combe/MazeSolver" },
+    "detail": {
+      "overview_fr": "Deux facettes en une : un générateur de labyrinthes (algorithme de Prim ou marche aléatoire de Wilson avec effacement de boucles) et un solveur par recherche A*, tous deux implémentés à la main avec une visualisation pas-à-pas de la progression. D'autres algorithmes de génération/résolution et une interface graphique sont prévus.",
+      "overview_en": "Two facets in one: a maze generator (Prim's algorithm or Wilson's loop-erased random walk) and an A*-search solver, both implemented from scratch with step-by-step visualization of the process. More generation/solving algorithms and a GUI are planned.",
+      "stack_fr": "Java.",
+      "stack_en": "Java.",
+      "challenges_fr": "Implémenter des algorithmes de génération et de résolution corrects et efficaces sur des labyrinthes de taille variable.",
+      "challenges_en": "Implementing correct and efficient generation and solving algorithms for mazes of varying size.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/maze-solver/screenshot1.png", "caption": "Generated and solved maze" },
+        { "type": "video", "src": "assets/img/projects/maze-solver/demo.mp4", "caption": "Maze generation + solving demo" }
+      ]
+    }
+  },
+  {
+    "slug": "particle-life",
+    "category": "programmation",
+    "featured": true,
+    "status": "public",
+    "title_fr": "Particle Life",
+    "title_en": "Particle Life",
+    "desc_fr": "Moteur de simulation particle-life en C++/OpenGL avec interface ImGui, deux variantes de build (Visual Studio et CMake).",
+    "desc_en": "Particle-life simulation engine in C++/OpenGL with an ImGui interface, two build variants (Visual Studio and CMake).",
+    "tech": ["C++", "OpenGL", "Dear ImGui"],
+    "cover": "assets/img/projects/particle-life/thesis_emergent.png",
+    "links": {
+      "repo": "https://github.com/gabriel-combe/ParticleLife",
+      "extra": [{ "label": "ParticlesLife_cmake", "url": "https://github.com/gabriel-combe/ParticlesLife_cmake" }]
+    },
+    "detail": {
+      "overview_fr": "Simulation de particules en interaction (attraction/répulsion par règles simples) avec rendu OpenGL et réglage des paramètres en direct via ImGui — un classique de la simulation émergente, ici implémenté de zéro.",
+      "overview_en": "Interacting particle simulation (attraction/repulsion via simple rules) with OpenGL rendering and live parameter tuning via ImGui — a classic emergent-simulation exercise, implemented from scratch here.",
+      "stack_fr": "C++, OpenGL, Dear ImGui, deux systèmes de build (Visual Studio / CMake) pour la portabilité.",
+      "stack_en": "C++, OpenGL, Dear ImGui, two build systems (Visual Studio / CMake) for portability.",
+      "challenges_fr": "Optimiser le calcul des interactions entre particules pour rester fluide en temps réel.",
+      "challenges_en": "Optimizing particle-interaction computation to stay smooth in real time.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/particle-life/thesis_emergent.png", "caption": "Emergent particle-life pattern" },
+        { "type": "image", "src": "assets/img/projects/particle-life/thesis_stable_clusters.png", "caption": "Stable clusters" },
+        { "type": "image", "src": "assets/img/projects/particle-life/thesis_territoire.png", "caption": "Territorial behavior" }
+      ]
+    }
+  },
+  {
+    "slug": "fractals-opengl",
+    "category": "programmation",
+    "featured": true,
+    "status": "public",
+    "title_fr": "Fractales (OpenGL)",
+    "title_en": "Fractals (OpenGL)",
+    "desc_fr": "Rendu de fractales en temps réel sur GPU via shaders, dans le cadre de mon apprentissage d'OpenGL.",
+    "desc_en": "Real-time GPU fractal rendering via shaders, part of my OpenGL learning projects.",
+    "tech": ["C", "OpenGL", "GLSL"],
+    "links": { "repo": "https://github.com/gabriel-combe/Fractals_OpenGL" },
+    "detail": {
+      "overview_fr": "Rendu de fractales (Mandelbrot, Julia, etc.) directement sur GPU via des shaders GLSL, projet construit en poursuivant la série de tutoriels LearnOpenGL.com au-delà des exercices de base.",
+      "overview_en": "Fractal rendering (Mandelbrot, Julia, etc.) directly on the GPU via GLSL shaders, built while extending the LearnOpenGL.com tutorial series beyond the base exercises.",
+      "stack_fr": "C, OpenGL, GLSL, glm/glad/glfw pour le socle de fenêtrage et de maths.",
+      "stack_en": "C, OpenGL, GLSL, glm/glad/glfw for windowing and math foundations.",
+      "challenges_fr": "Comprendre et écrire des shaders de rendu itératif performants pour explorer les fractales en temps réel.",
+      "challenges_en": "Understanding and writing performant iterative rendering shaders to explore fractals in real time.",
+      "media": []
+    }
+  },
+  {
+    "slug": "ray-marching-opengl",
+    "category": "programmation",
+    "featured": false,
+    "status": "public",
+    "title_fr": "Ray Marching (OpenGL)",
+    "title_en": "Ray Marching (OpenGL)",
+    "desc_fr": "Moteur de rendu par ray marching (SDF) sur GPU via shaders.",
+    "desc_en": "GPU ray-marching (SDF) rendering engine via shaders.",
+    "tech": ["C", "OpenGL", "GLSL"],
+    "links": { "repo": "https://github.com/gabriel-combe/RayMarching_OpenGL" },
+    "detail": {
+      "overview_fr": "Rendu de scènes par ray marching à base de fonctions de distance signée (SDF), technique classique en creative coding/démoscène, implémentée en shader GLSL.",
+      "overview_en": "Scene rendering via ray marching using signed distance functions (SDF), a classic creative-coding/demoscene technique, implemented in a GLSL shader.",
+      "stack_fr": "C, OpenGL, GLSL.",
+      "stack_en": "C, OpenGL, GLSL.",
+      "challenges_fr": "Composer des SDF pour des scènes non triviales tout en gardant un coût de rendu raisonnable.",
+      "challenges_en": "Composing SDFs for non-trivial scenes while keeping rendering cost reasonable.",
+      "media": []
+    }
+  },
+  {
+    "slug": "cellular-automata",
+    "category": "programmation",
+    "featured": true,
+    "status": "public",
+    "title_fr": "Cellular Automata",
+    "title_en": "Cellular Automata",
+    "desc_fr": "Moteur d'automates cellulaires 1D/2D généraliste : configuration de voisinage arbitraire (pas seulement le nombre de voisins).",
+    "desc_en": "General-purpose 1D/2D cellular automata engine: arbitrary neighbor configuration (not just neighbor count).",
+    "tech": ["Java"],
+    "cover": "assets/img/projects/cellular-automata/thesis_pattern.png",
+    "links": { "repo": "https://github.com/gabriel-combe/CellularAutomata" },
+    "detail": {
+      "overview_fr": "Moteur d'automates cellulaires supportant des règles définies par configuration de voisins (ex. B3/S2,3) plutôt que par simple comptage, avec des voisinages de taille arbitrairement grande (jusqu'aux limites mémoire) — permet d'explorer des automates 1D et 2D bien au-delà du Jeu de la Vie classique, piloté en ligne de commande.",
+      "overview_en": "Cellular automata engine supporting rules defined by neighbor configuration (e.g. B3/S2,3) rather than plain counting, with arbitrarily large neighborhoods (memory permitting) — allows exploring 1D and 2D automata well beyond the classic Game of Life, driven from the console.",
+      "stack_fr": "Java, build Ant.",
+      "stack_en": "Java, Ant build.",
+      "challenges_fr": "Généraliser la notion de voisinage pour accepter des configurations arbitraires sans exploser en complexité de code.",
+      "challenges_en": "Generalizing the notion of neighborhood to accept arbitrary configurations without blowing up code complexity.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/cellular-automata/thesis_pattern.png", "caption": "Complex symmetric 2D pattern" },
+        { "type": "image", "src": "assets/img/projects/cellular-automata/thesis_2d_surprise.png", "caption": "Unexpected emergent 2D pattern" },
+        { "type": "image", "src": "assets/img/projects/cellular-automata/thesis_1d_k5.png", "caption": "1D automaton, k5 neighborhood" },
+        { "type": "image", "src": "assets/img/projects/cellular-automata/thesis_game_of_life_glider.png", "caption": "Conway's Game of Life — glider" },
+        { "type": "image", "src": "assets/img/projects/cellular-automata/screenshot2.png", "caption": "2D automaton, k25 random neighborhood" },
+        { "type": "image", "src": "assets/img/projects/cellular-automata/screenshot1.png", "caption": "2D automaton, k9 rectangular neighborhood" },
+        { "type": "image", "src": "assets/img/projects/cellular-automata/screenshot3.png", "caption": "1D automaton space-time diagram, k5" }
+      ]
+    }
+  },
+  {
+    "slug": "regex-dfa-builder",
+    "category": "programmation",
+    "featured": true,
+    "status": "public",
+    "title_fr": "regexDFA_builder",
+    "title_en": "regexDFA_builder",
+    "desc_fr": "Construction d'un DFA minimal à partir d'une expression régulière (Thompson, déterminisation, minimisation), avec une optimisation par empaquetage bit à bit des états.",
+    "desc_en": "Builds a minimal DFA from a regular expression (Thompson construction, determinization, minimization), with a bitwise state-packing optimization.",
+    "tech": ["C"],
+    "cover": "assets/img/projects/regex-dfa-builder/screenshot1.png",
+    "links": { "repo": "https://github.com/gabriel-combe/regexDFA_builder" },
+    "detail": {
+      "overview_fr": "Implémentation d'un pipeline classique de théorie des automates : construction de Thompson (regex → NFA), déterminisation (NFA → DFA), puis minimisation du DFA façon Hopcroft. Une optimisation maison empaquette les états sous forme compacte en bits (jusqu'à 8 états par octet).",
+      "overview_en": "Implementation of a classic automata-theory pipeline: Thompson construction (regex → NFA), determinization (NFA → DFA), then Hopcroft-style DFA minimization. A custom optimization packs states compactly using bit manipulation (up to 8 states per byte).",
+      "stack_fr": "C, Makefile.",
+      "stack_en": "C, Makefile.",
+      "challenges_fr": "Implémenter correctement les trois étapes de l'algorithme et vérifier leur correction, tout en optimisant la représentation mémoire des états.",
+      "challenges_en": "Correctly implementing and verifying the three algorithm stages, while optimizing the in-memory state representation.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/regex-dfa-builder/screenshot1.png", "caption": "Regex parse tree" },
+        { "type": "image", "src": "assets/img/projects/regex-dfa-builder/screenshot2.png", "caption": "DFA minimization diagram" }
+      ]
+    }
+  },
+  {
+    "slug": "ascii-artgen",
+    "category": "outils",
+    "featured": true,
+    "status": "public",
+    "title_fr": "ASCII_artgen (ASCIIXEL)",
+    "title_en": "ASCII_artgen (ASCIIXEL)",
+    "desc_fr": "Convertit images et vidéos en art ASCII ou en gros pixels, avec option couleur.",
+    "desc_en": "Converts images and videos to ASCII art or large pixels, with an optional color mode.",
+    "tech": ["Python", "OpenCV", "Pygame"],
+    "cover": "assets/img/projects/ascii-artgen/bad_apple_frame.png",
+    "links": { "repo": "https://github.com/gabriel-combe/ASCII_artgen", "demo": "https://youtu.be/nAvhP0ASKRY" },
+    "detail": {
+      "overview_fr": "\"ASCIIXEL\" transforme n'importe quelle image ou vidéo en trois styles de rendu : ASCII classique, ASCII coloré, ou gros pixels — avec palette de caractères, taille d'élément et quantification des couleurs réglables, aperçu en direct et enregistrement.",
+      "overview_en": "\"ASCIIXEL\" converts any image or video into three render styles: classic ASCII, colored ASCII, or large-pixel art — with adjustable character density, element size and color quantization, live preview and recording.",
+      "stack_fr": "Python, OpenCV pour le traitement d'image/vidéo, Pygame pour l'affichage, Numba pour accélérer les boucles pixel par pixel.",
+      "stack_en": "Python, OpenCV for image/video processing, Pygame for display, Numba to accelerate the pixel-by-pixel loops.",
+      "challenges_fr": "Traiter la vidéo image par image en temps réel tout en gardant un rendu lisible à différentes résolutions de sortie.",
+      "challenges_en": "Processing video frame-by-frame in real time while keeping the output readable at different resolutions.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/ascii-artgen/bad_apple_frame.png", "caption": "\"Bad Apple!!\" rendered in ASCII" },
+        { "type": "image", "src": "assets/img/projects/ascii-artgen/bad_apple_frame2.png", "caption": "\"Bad Apple!!\" rendered in ASCII (2)" },
+        { "type": "image", "src": "assets/img/projects/ascii-artgen/screenshot1.png", "caption": "ASCIIXEL parameter/preview interface" }
+      ]
+    }
+  },
+  {
+    "slug": "tron-ai",
+    "category": "jeux",
+    "featured": true,
+    "status": "public",
+    "title_fr": "Tron_AI",
+    "title_en": "Tron_AI",
+    "desc_fr": "Jeu Tron à 4 agents qui s'affrontent, pilotés par des CNN entraînés en Deep Q-Learning (DQN).",
+    "desc_en": "A 4-agent Tron game where agents compete, driven by CNNs trained with Deep Q-Learning (DQN).",
+    "tech": ["Python", "PyTorch/TF", "Reinforcement Learning"],
+    "cover": "assets/img/projects/tron-ai/screenshot1.png",
+    "links": { "repo": "https://github.com/gabriel-combe/Tron_AI" },
+    "detail": {
+      "overview_fr": "Simulation du jeu Tron (light cycles) avec 4 agents autonomes s'affrontant jusqu'au dernier survivant, chacun piloté par un réseau convolutif entraîné par apprentissage par renforcement (DQN). Plusieurs stratégies de reward-shaping ont été testées et comparées (pénalité de durée de vie inversée, récompense logarithmique, récompense inversement proportionnelle à la pénalité, etc.).",
+      "overview_en": "A simulation of the Tron light-cycle game with 4 autonomous agents fighting to be the last one standing, each driven by a convolutional network trained via reinforcement learning (DQN). Several reward-shaping strategies were tried and compared (inverse-lifetime penalty, log reward, reward inversely scaled to penalty, etc.).",
+      "stack_fr": "Python, réseau de neurones convolutif, Deep Q-Network, système de récompenses ajusté itérativement.",
+      "stack_en": "Python, convolutional neural network, Deep Q-Network, reward system tuned iteratively.",
+      "challenges_fr": "Concevoir une fonction de récompense qui pousse réellement les agents vers un comportement stratégique plutôt que des optima dégénérés.",
+      "challenges_en": "Designing a reward function that actually pushes agents toward strategic behavior rather than degenerate optima.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/tron-ai/screenshot1.png", "caption": "Tron_AI gameplay" }
+      ]
+    }
+  },
+  {
+    "slug": "eye-tracking",
+    "category": "programmation",
+    "featured": false,
+    "status": "public",
+    "title_fr": "EyeTracking",
+    "title_en": "EyeTracking",
+    "desc_fr": "Suivi du regard pour la VR par Deep Learning (ResNet 18/34/50, PyTorch).",
+    "desc_en": "Gaze tracking for VR using Deep Learning (ResNet 18/34/50, PyTorch).",
+    "tech": ["Python", "PyTorch", "Computer Vision"],
+    "links": { "repo": "https://github.com/gabriel-combe/EyeTracking" },
+    "detail": {
+      "overview_fr": "Modèle de suivi du regard (gaze estimation) destiné à un contexte VR, entraîné avec plusieurs architectures ResNet et suivi d'expériences via Weights & Biases.",
+      "overview_en": "A gaze-estimation model aimed at a VR context, trained with several ResNet architectures and experiment tracking via Weights & Biases.",
+      "stack_fr": "Python, PyTorch, ResNet-18/34/50, Pipenv, Weights & Biases.",
+      "stack_en": "Python, PyTorch, ResNet-18/34/50, Pipenv, Weights & Biases.",
+      "challenges_fr": "Obtenir une estimation précise et stable du regard à partir d'images de caméra embarquée dans un casque, avec des contraintes de temps réel.",
+      "challenges_en": "Getting an accurate and stable gaze estimate from a headset-mounted camera feed, under real-time constraints.",
+      "media": []
+    }
+  },
+  {
+    "slug": "wave-function-collapse",
+    "category": "programmation",
+    "featured": false,
+    "status": "public",
+    "title_fr": "WaveFunctionCollapse",
+    "title_en": "WaveFunctionCollapse",
+    "desc_fr": "Implémentation de l'algorithme de génération procédurale Wave Function Collapse en Python.",
+    "desc_en": "Python implementation of the Wave Function Collapse procedural generation algorithm.",
+    "tech": ["Python"],
+    "cover": "assets/img/projects/wave-function-collapse/screenshot2.png",
+    "links": { "repo": "https://github.com/gabriel-combe/WaveFunctionCollapse" },
+    "detail": {
+      "overview_fr": "Implémentation de l'algorithme Wave Function Collapse (calcul d'entropie par pondération de fréquence, propagation de contraintes par file, détection de contradiction), avec une interface graphique pour régler les paramètres avant génération. Fourni avec de nombreux exemples de bitmaps (donjons, grottes, égouts, silhouettes de villes, labyrinthes...).",
+      "overview_en": "Implementation of the Wave Function Collapse algorithm (frequency-weighted entropy calculation, queue-based constraint propagation, contradiction detection), with a GUI to tune parameters before generation. Ships with many example input bitmaps (dungeons, caves, sewers, skylines, mazes...).",
+      "stack_fr": "Python.",
+      "stack_en": "Python.",
+      "challenges_fr": "Gérer la propagation de contraintes efficacement pour éviter les contradictions et les temps de génération trop longs.",
+      "challenges_en": "Handling constraint propagation efficiently to avoid contradictions and overly long generation times.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/wave-function-collapse/screenshot1.png", "caption": "WFC parameter GUI" },
+        { "type": "image", "src": "assets/img/projects/wave-function-collapse/screenshot2.png", "caption": "Generated output — \"MagicOffice\" example" }
+      ]
+    }
+  },
+  {
+    "slug": "audio-cppn",
+    "category": "programmation",
+    "featured": true,
+    "status": "public",
+    "title_fr": "AudioCPPN",
+    "title_en": "AudioCPPN",
+    "desc_fr": "Visualisation audio-réactive générée par un réseau CPPN (Compositional Pattern Producing Network) en PyTorch.",
+    "desc_en": "Audio-reactive visualization generated by a CPPN (Compositional Pattern Producing Network) in PyTorch.",
+    "tech": ["Python", "PyTorch"],
+    "cover": "assets/img/projects/audio-cppn/asgretalos_frame1.png",
+    "links": { "repo": "https://github.com/gabriel-combe/AudioCPPN" },
+    "detail": {
+      "overview_fr": "Génère des visuels abstraits réagissant à l'audio en utilisant un CPPN, un type de réseau de neurones produisant des motifs continus. Une v2 (terminée) améliore le pipeline d'origine et doit être fusionnée dans ce dépôt.",
+      "overview_en": "Generates abstract visuals reacting to audio using a CPPN, a type of neural network that produces continuous patterns. A finished v2 improves on the original pipeline and should be merged into this repo.",
+      "stack_fr": "Python, PyTorch, traitement du signal audio.",
+      "stack_en": "Python, PyTorch, audio signal processing.",
+      "challenges_fr": "Synchroniser la génération visuelle avec les caractéristiques audio en temps réel de façon esthétiquement cohérente.",
+      "challenges_en": "Synchronizing visual generation with real-time audio features in an aesthetically coherent way.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/audio-cppn/asgretalos_frame1.png", "caption": "Audio-reactive CPPN output — \"Asgretalos\"" },
+        { "type": "image", "src": "assets/img/projects/audio-cppn/priestess_frame1.png", "caption": "Audio-reactive CPPN output — \"Priestess\"" }
+      ]
+    }
+  },
+  {
+    "slug": "algo-art",
+    "category": "jeux",
+    "featured": false,
+    "status": "public",
+    "title_fr": "AlgoArt",
+    "title_en": "AlgoArt",
+    "desc_fr": "Terrain procédural (automate cellulaire) peuplé de créatures qui évoluent via un réseau de neurones et un algorithme génétique, écrits from scratch en C++. Quasi solo (hors éléments de végétation 3D).",
+    "desc_en": "A procedural terrain (cellular automaton) populated with creatures that evolve via a neural network and a genetic algorithm, written from scratch in C++. Almost entirely solo work (aside from the 3D plant assets).",
+    "tech": ["Unreal Engine 5", "C++"],
+    "links": { "repo": "https://github.com/gabriel-combe/AlgoArt" },
+    "detail": {
+      "overview_fr": "Projet réalisé en première année de Master ATI (Paris 8), quasiment en solo (à l'exception des assets de végétation 3D). Génération de terrain par automate cellulaire, peuplé de créatures dont le comportement est piloté par un réseau de neurones fait main (classe matrice, activation tanh) entraîné/évolué via un algorithme génétique (mutation, copie de poids) — le tout écrit from scratch en C++.",
+      "overview_en": "A project made during the first year of my ATI Master's (Paris 8), almost entirely solo (aside from the 3D plant assets). Procedural terrain generation via a cellular automaton, populated with creatures whose behavior is driven by a hand-rolled neural network (matrix class, tanh activation) evolved via a genetic algorithm (mutation, weight copying) — all written from scratch in C++.",
+      "stack_fr": "Unreal Engine 5, C++ (réseau de neurones et algorithme génétique faits main, sans librairie ML).",
+      "stack_en": "Unreal Engine 5, C++ (hand-rolled neural network and genetic algorithm, no ML library).",
+      "challenges_fr": "Écrire un réseau de neurones et un algorithme génétique from scratch en C++ (sans librairie), et traduire des règles génératives en systèmes visuels cohérents dans le moteur UE5.",
+      "challenges_en": "Writing a neural network and genetic algorithm from scratch in C++ (no library), and translating generative rules into coherent visual systems within the UE5 engine.",
+      "media": []
+    }
+  },
+  {
+    "slug": "threads-of-destiny",
+    "category": "jeux",
+    "featured": false,
+    "status": "public",
+    "title_fr": "Threads of Destiny",
+    "title_en": "Threads of Destiny",
+    "desc_fr": "Jeu narratif de divination par le tarot réalisé en équipe en 48h pour la Ooga Booga Game Jam. Jouable directement ci-dessous.",
+    "desc_en": "A tarot-divination narrative game made as a team in 48h for the Ooga Booga Game Jam. Playable directly below.",
+    "cover": "assets/img/projects/threads-of-destiny/screenshot1.png",
+    "tech": ["Unity", "C#", "Game Jam"],
+    "play_embed": "games/threads-of-destiny/index.html",
+    "links": {
+      "repo": "https://github.com/gabriel-combe/Visionary",
+      "itch": "https://ullcarion.itch.io/threads-of-destiny"
+    },
+    "detail": {
+      "overview_fr": "Jeu réalisé en équipe en 48h dans le cadre d'une game jam (Ooga Booga Game Jam) : un jeu narratif où le joueur incarne un oracle qui révèle des secrets à travers des conversations et des visions du tarot, dans une cour royale en pleins préparatifs de mariage — chaque choix influence le destin des personnages et du royaume. Architecture logicielle plus poussée que la moyenne pour ce format : machine à états par phase, event bus, service locator, et un graphe de dialogue conditionnel piloté par un moteur de règles.",
+      "overview_en": "A game made as a team in 48h during a game jam (Ooga Booga Game Jam): a narrative game where the player plays an oracle revealing secrets through conversations and tarot visions, in a royal court amid wedding preparations — every choice shapes the characters' and kingdom's fate. More sophisticated software architecture than usual for the format: a per-phase state machine, an event bus, a service locator, and a condition-driven dialogue graph engine.",
+      "stack_fr": "Unity, C#. Travail d'équipe — projet collectif, pas une réalisation solo.",
+      "stack_en": "Unity, C#. Team effort — a collective project, not solo work.",
+      "challenges_fr": "Livrer un jeu narratif jouable et une architecture propre dans le temps très court d'une game jam de 48h.",
+      "challenges_en": "Shipping a playable narrative game with clean architecture within the very short 48h game jam timeframe.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/threads-of-destiny/screenshot1.png", "caption": "Dialogue with the princess" },
+        { "type": "image", "src": "assets/img/projects/threads-of-destiny/screenshot2.png", "caption": "Tarot reading scene" },
+        { "type": "image", "src": "assets/img/projects/threads-of-destiny/screenshot3.png", "caption": "In-game scene" }
+      ]
+    }
+  },
+  {
+    "slug": "a-blob-out-of-space",
+    "category": "jeux",
+    "featured": true,
+    "status": "public",
+    "title_fr": "A Blob Out of Space",
+    "title_en": "A Blob Out of Space",
+    "desc_fr": "Prototype d'insectes/IA en Unreal Engine, réalisé from scratch en solo pendant un intensif de 3 semaines (Master ATI).",
+    "desc_en": "An insect/AI prototype in Unreal Engine, built from scratch solo during a 3-week intensive (ATI Master's).",
+    "tech": ["Unreal Engine", "C++"],
+    "cover": "assets/img/projects/a-blob-out-of-space/trailer_frame1.png",
+    "links": {},
+    "detail": {
+      "overview_fr": "Prototype réalisé from scratch en solo pendant un intensif de 3 semaines au Master ATI : composant de marche universelle (alignement sur la gravité via multi-raycast), insectes pilotés par arbre de comportement (behavior tree), tâches de suivi de groupe (crowd-follow).",
+      "overview_en": "A prototype built from scratch solo during a 3-week intensive at the ATI Master's: a custom \"universal walk\" gravity-alignment component (multi-arm raycasting), behavior-tree-driven insect AI, and crowd-follow tasks.",
+      "stack_fr": "Unreal Engine 5, C++, Behavior Trees.",
+      "stack_en": "Unreal Engine 5, C++, Behavior Trees.",
+      "challenges_fr": "Concevoir un système de déplacement générique capable de s'aligner sur des surfaces arbitraires (gravité locale), et piloter des IA d'insectes crédibles en peu de temps.",
+      "challenges_en": "Designing a generic movement system able to align to arbitrary surfaces (local gravity), and driving believable insect AI in a short timeframe.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/a-blob-out-of-space/trailer_frame1.png", "caption": "Trailer — \"Mais quelle triste planète!\"" },
+        { "type": "image", "src": "assets/img/projects/a-blob-out-of-space/trailer_frame2.png", "caption": "Trailer — creatures exploring the planet" },
+        { "type": "image", "src": "assets/img/projects/a-blob-out-of-space/gameplay-screenshot.png", "caption": "In-editor screenshot — insect actors on the test grid" }
+      ]
+    }
+  },
+  {
+    "slug": "miner-defense",
+    "category": "jeux",
+    "featured": false,
+    "status": "public",
+    "title_fr": "MinerDefense",
+    "title_en": "MinerDefense",
+    "desc_fr": "Prototype de tower defense réalisé en solo en 4 jours, comme test technique pour l'alternance chez Tartatin (studio de jeu mobile).",
+    "desc_en": "A tower-defense prototype built solo in 4 days, as a technical assessment for the Tartatin (mobile game studio) apprenticeship.",
+    "tech": ["Unity", "C#"],
+    "links": { "repo": "https://github.com/gabriel-combe/MinerDefense" },
+    "detail": {
+      "overview_fr": "Prototype de tower defense sur grille : placement de bâtiments (grille générique réutilisable), mines d'or, tourelles/projectiles, vagues d'ennemis, interface drag-and-drop, système d'amélioration piloté par ScriptableObjects. Réalisé en 4 jours en solo comme évaluation technique — c'est ce projet qui a mené à mon alternance actuelle.",
+      "overview_en": "A grid-based tower-defense prototype: building placement (reusable generic grid), gold mines, turrets/projectiles, enemy waves, drag-and-drop UI, an upgrade system driven by ScriptableObjects. Built solo in 4 days as a technical assessment — this project led directly to my current apprenticeship.",
+      "stack_fr": "Unity, C#, architecture orientée ScriptableObjects.",
+      "stack_en": "Unity, C#, ScriptableObject-driven architecture.",
+      "challenges_fr": "Livrer un système de jeu propre et extensible (grille générique, upgrades via SO) dans un délai de 4 jours seulement.",
+      "challenges_en": "Delivering a clean, extensible game system (generic grid, SO-driven upgrades) within just 4 days.",
+      "media": []
+    }
+  },
+  {
+    "slug": "particle-filter",
+    "category": "programmation",
+    "featured": false,
+    "status": "public",
+    "title_fr": "Particle Filter",
+    "title_en": "Particle Filter",
+    "desc_fr": "Implémentation d'un filtre à particules pour le suivi d'objets, étape préparatoire vers Cuttlefish_Tracker.",
+    "desc_en": "Particle filter implementation for object tracking, a stepping stone toward Cuttlefish_Tracker.",
+    "tech": ["Python"],
+    "cover": "assets/img/projects/particle-filter/results_landmarks.png",
+    "links": { "repo": "https://github.com/gabriel-combe/Particle_Filter" },
+    "detail": {
+      "overview_fr": "Implémentation d'un filtre à particules (structures de particules et méthodes de resampling interchangeables) suivant l'approche de \"Kalman and Bayesian Filters in Python\" (Roger Labbe), servant de base au projet académique Cuttlefish_Tracker.",
+      "overview_en": "A particle filter implementation (swappable particle structures and resampling methods) following the approach in \"Kalman and Bayesian Filters in Python\" (Roger Labbe), used as the foundation for the academic project Cuttlefish_Tracker.",
+      "stack_fr": "Python.",
+      "stack_en": "Python.",
+      "challenges_fr": "Comprendre et implémenter correctement l'estimation bayésienne récursive avant de l'appliquer à un vrai cas de suivi vidéo.",
+      "challenges_en": "Understanding and correctly implementing recursive Bayesian estimation before applying it to a real video-tracking case.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/particle-filter/results_landmarks.png", "caption": "Landmark-tracking result" },
+        { "type": "image", "src": "assets/img/projects/particle-filter/results_sincos_trail_title.png", "caption": "Sin/cos trail tracking result" }
+      ]
+    }
+  },
+  {
+    "slug": "animidnet",
+    "category": "programmation",
+    "featured": false,
+    "status": "wip",
+    "title_fr": "AniMidNet",
+    "title_en": "AniMidNet",
+    "desc_fr": "Pipeline de génération de MIDI (dataset + modèle). Projet non fonctionnel pour l'instant : jamais testé/entraîné, techno à mettre à jour, et le dépôt (privé) contient des fichiers .midi à retirer de l'historique git avant toute publication pour des raisons de droits d'auteur.",
+    "desc_en": "MIDI generation pipeline (dataset + model). Currently non-functional: never tested/trained, tech stack needs updating, and the (private) repo has .midi files that must be removed from git history before publishing, for copyright reasons.",
+    "tech": ["Python", "TensorFlow", "PyTorch"],
+    "links": {},
+    "detail": {
+      "overview_fr": "Pipeline de génération musicale MIDI : génération de dataset, nettoyage/construction des fichiers MIDI, et deux implémentations de modèle (TensorFlow puis PyTorch). Existe déjà en dépôt privé sur GitHub, mais n'a jamais pu être testé ni entraîné jusqu'ici. Pas une priorité pour l'instant : à reprendre plus tard pour mettre à jour la stack technique, faire tourner un entraînement réel, et surtout purger les fichiers .midi (probablement protégés par le droit d'auteur) de l'historique git avant de rendre le dépôt public.",
+      "overview_en": "A MIDI music generation pipeline: dataset generation, MIDI cleaning/building, and two model implementations (TensorFlow, then PyTorch). Already exists as a private GitHub repo, but has never actually been tested or trained. Not a priority right now — to revisit later: update the tech stack, run an actual training pass, and above all purge the .midi files (likely copyrighted) from git history before making the repo public.",
+      "stack_fr": "Python, TensorFlow, PyTorch (stack à mettre à jour).",
+      "stack_en": "Python, TensorFlow, PyTorch (stack to be updated).",
+      "challenges_fr": "Remettre le pipeline en état de marche, l'entraîner réellement, et nettoyer l'historique git des fichiers MIDI protégés avant publication.",
+      "challenges_en": "Getting the pipeline actually working, training it for real, and cleaning copyrighted MIDI files from git history before publishing.",
+      "media": []
+    }
+  },
+  {
+    "slug": "universal-converter",
+    "category": "outils",
+    "featured": false,
+    "status": "wip",
+    "ai_assisted": true,
+    "title_fr": "Universal Converter",
+    "title_en": "Universal Converter",
+    "desc_fr": "Outil de conversion de fichiers packagé en exécutable. Développé avec l'aide de Claude Code.",
+    "desc_en": "File conversion tool packaged as a standalone executable. Built with the help of Claude Code.",
+    "tech": ["Python"],
+    "links": {},
+    "detail": {
+      "overview_fr": "Utilitaire de conversion de fichiers, packagé en exécutable Windows autonome (PyInstaller). Développé avec l'assistance de Claude Code — mentionné honnêtement ici, l'outil reste néanmoins fonctionnel et utile au quotidien.",
+      "overview_en": "A file-conversion utility, packaged as a standalone Windows executable (PyInstaller). Built with the help of Claude Code — honestly disclosed here, the tool remains functional and genuinely useful day-to-day.",
+      "stack_fr": "Python, PyInstaller.",
+      "stack_en": "Python, PyInstaller.",
+      "challenges_fr": "Emballer proprement l'outil en exécutable distribuable sans dépendances externes à installer.",
+      "challenges_en": "Cleanly packaging the tool into a distributable executable with no external dependencies to install.",
+      "media": []
+    }
+  },
+  {
+    "slug": "video-image-enhancer-upscaler",
+    "category": "outils",
+    "featured": false,
+    "status": "wip",
+    "ai_assisted": true,
+    "title_fr": "Video/Image Enhancer Upscaler",
+    "title_en": "Video/Image Enhancer Upscaler",
+    "desc_fr": "Outil d'amélioration/upscaling d'images et vidéos, packagé en exécutable. Développé avec l'aide de Claude Code.",
+    "desc_en": "Image/video enhancement and upscaling tool, packaged as a standalone executable. Built with the help of Claude Code.",
+    "tech": ["Python"],
+    "cover": "assets/img/projects/video-image-enhancer-upscaler/before-after-v8.png",
+    "links": {},
+    "detail": {
+      "overview_fr": "Outil d'amélioration et d'agrandissement (upscaling) d'images et de vidéos (basé sur Real-ESRGAN/GFPGAN), packagé en exécutable Windows autonome. Développé avec l'assistance de Claude Code — mentionné honnêtement ici.",
+      "overview_en": "An image and video enhancement/upscaling tool (built on Real-ESRGAN/GFPGAN), packaged as a standalone Windows executable. Built with the help of Claude Code — honestly disclosed here.",
+      "stack_fr": "Python.",
+      "stack_en": "Python.",
+      "challenges_fr": "Intégrer des modèles d'upscaling existants dans un outil simple d'usage, packagé sans dépendances.",
+      "challenges_en": "Integrating existing upscaling models into a simple-to-use tool, packaged without external dependencies.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/video-image-enhancer-upscaler/before-after-v8.png", "caption": "Before / intermediate / after comparison" },
+        { "type": "image", "src": "assets/img/projects/video-image-enhancer-upscaler/before-after-5way.png", "caption": "5-step enhancement progression" },
+        { "type": "image", "src": "assets/img/projects/video-image-enhancer-upscaler/before-after-noisy-blurry.png", "caption": "Noisy/blurry input vs. enhanced output" }
+      ]
+    }
+  },
+  {
+    "slug": "artificial-life",
+    "category": "programmation",
+    "featured": false,
+    "status": "public",
+    "ai_assisted": true,
+    "title_fr": "Artificial Life",
+    "title_en": "Artificial Life",
+    "desc_fr": "Simulation de vie artificielle en C++ multiplateforme, réalisée pour mon mémoire de M2 avec l'aide de Claude Code. SDL2, Eigen, Dear ImGui, ImPlot, nlohmann/json.",
+    "desc_en": "Multiplatform C++ artificial life simulation, built for my M2 thesis with the help of Claude Code. SDL2, Eigen, Dear ImGui, ImPlot, nlohmann/json.",
+    "tech": ["C++", "SDL2", "Eigen", "Dear ImGui", "CMake"],
+    "cover": "assets/img/projects/artificial-life/particle_visualization.png",
+    "links": { "repo": "https://github.com/gabriel-combe/ArtificialLife" },
+    "detail": {
+      "overview_fr": "Expérience de vie artificielle (particle-life-like) construite en C++ dans le cadre de mon mémoire de Master 2 (ATI, Paris 8), avec l'aide de Claude Code. Interface temps réel avec Dear ImGui/ImPlot pour ajuster et observer les paramètres de simulation en direct.",
+      "overview_en": "Artificial-life experiment (particle-life-like) built in C++ as part of my Master 2 thesis (ATI, Paris 8), with the help of Claude Code. Real-time interface with Dear ImGui/ImPlot to tune and observe simulation parameters live.",
+      "stack_fr": "C++, SDL2 pour le rendu, Eigen pour le calcul vectoriel, Dear ImGui + ImPlot pour l'interface et les graphes, nlohmann/json pour la configuration, CMake multiplateforme.",
+      "stack_en": "C++, SDL2 for rendering, Eigen for vector math, Dear ImGui + ImPlot for the UI and graphs, nlohmann/json for configuration, cross-platform CMake build.",
+      "challenges_fr": "Garder des performances correctes avec un grand nombre de particules en interaction tout en gardant l'interface réactive pour l'exploration de paramètres en direct.",
+      "challenges_en": "Keeping decent performance with a large number of interacting particles while keeping the UI responsive for live parameter exploration.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/artificial-life/particle_visualization.png", "caption": "Audio-reactive particle visualization" }
+      ]
+    }
+  },
+  {
+    "slug": "biohand",
+    "category": "hardware",
+    "featured": false,
+    "status": "wip",
+    "title_fr": "BioHand",
+    "title_en": "BioHand",
+    "desc_fr": "Contrôleur de main prothétique par signaux myoélectriques (Arduino).",
+    "desc_en": "Prosthetic hand controller driven by myoelectric signals (Arduino).",
+    "tech": ["Arduino", "C++"],
+    "links": {},
+    "detail": {
+      "overview_fr": "Contrôleur de main prothétique lisant deux capteurs EMG (myoélectriques) pour piloter trois servomoteurs (pouce, index, autres doigts) — un petit projet d'embarqué/robotique concret.",
+      "overview_en": "A prosthetic hand controller reading two EMG (myoelectric) sensors to drive three servomotors (thumb, index, other fingers) — a small but concrete embedded/robotics project.",
+      "stack_fr": "Arduino, C++.",
+      "stack_en": "Arduino, C++.",
+      "challenges_fr": "Traiter un signal EMG bruité pour en extraire des commandes de mouvement fiables.",
+      "challenges_en": "Processing a noisy EMG signal to extract reliable movement commands.",
+      "media": []
+    }
+  },
+  {
+    "slug": "uiua-fractals",
+    "category": "programmation",
+    "featured": false,
+    "status": "public",
+    "title_fr": "Uiua Fractals",
+    "title_en": "Uiua Fractals",
+    "desc_fr": "Génération d'images fractales dans le langage de tableaux ésotérique Uiua.",
+    "desc_en": "Fractal image generation in the esoteric array-programming language Uiua.",
+    "tech": ["Uiua"],
+    "links": { "repo": "https://github.com/gabriel-combe/uiua_fractals" },
+    "detail": {
+      "overview_fr": "Génération de fractales en Uiua, un langage de programmation par tableaux (array programming) volontairement ésotérique et minimaliste.",
+      "overview_en": "Fractal generation in Uiua, an intentionally esoteric, minimalist array-programming language.",
+      "stack_fr": "Uiua.",
+      "stack_en": "Uiua.",
+      "challenges_fr": "Exprimer des calculs itératifs classiques dans un paradigme de programmation par tableaux très différent des langages habituels.",
+      "challenges_en": "Expressing classic iterative computations in an array-programming paradigm very different from usual languages.",
+      "media": []
+    }
+  },
+  {
+    "slug": "wordl",
+    "category": "jeux",
+    "featured": false,
+    "status": "public",
+    "title_fr": "WORDL",
+    "title_en": "WORDL",
+    "desc_fr": "Clone du jeu Wordle en français, en Python.",
+    "desc_en": "A French-language clone of Wordle, in Python.",
+    "tech": ["Python"],
+    "links": { "repo": "https://github.com/gabriel-combe/WORDL" },
+    "detail": {
+      "overview_fr": "Petit clone du jeu Wordle, adapté au lexique français.",
+      "overview_en": "A small Wordle clone, adapted to the French lexicon.",
+      "stack_fr": "Python.",
+      "stack_en": "Python.",
+      "challenges_fr": "Adapter la logique du jeu à un dictionnaire français complet.",
+      "challenges_en": "Adapting the game logic to a full French dictionary.",
+      "media": []
+    }
+  },
+  {
+    "slug": "academic-db-project",
+    "category": "academique",
+    "featured": false,
+    "status": "wip",
+    "title_fr": "Méta-représentation d'un schéma en OOP (BDD)",
+    "title_en": "OOP Meta-representation of a Schema (Database)",
+    "desc_fr": "Projet de base de données en équipe (L3) : fonctions, procédures, triggers SQL et modélisation objet.",
+    "desc_en": "Team database project (L3/bachelor's): SQL functions, procedures, triggers, and object modeling.",
+    "tech": ["SQL"],
+    "cover": "assets/img/projects/academic-db-project/physical-schema-diagram.png",
+    "links": {},
+    "detail": {
+      "overview_fr": "Projet de groupe en base de données (L3 Informatique, Montpellier) : conception d'un schéma, fonctions/procédures/triggers SQL, diagrammes UML/EA et rapport écrit.",
+      "overview_en": "Group database project (L3 Computer Science, Montpellier): schema design, SQL functions/procedures/triggers, UML/EA diagrams and a written report.",
+      "stack_fr": "SQL, modélisation UML/EA.",
+      "stack_en": "SQL, UML/EA modeling.",
+      "challenges_fr": "Concevoir un schéma robuste et des triggers/procédures cohérents en travail d'équipe.",
+      "challenges_en": "Designing a robust schema and consistent triggers/procedures as a team.",
+      "media": [
+        { "type": "image", "src": "assets/img/projects/academic-db-project/physical-schema-diagram.png", "caption": "Physical relational schema" },
+        { "type": "image", "src": "assets/img/projects/academic-db-project/ea-conceptual-diagram.png", "caption": "Entity-Association conceptual diagram" }
+      ]
+    }
+  }
+]
